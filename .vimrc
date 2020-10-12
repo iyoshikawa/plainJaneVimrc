@@ -6,6 +6,7 @@ set backspace=indent,eol,start
 set ttyfast
 set statusline
 set hlsearch
+set showmatch
 set incsearch
 set smartcase
 
@@ -13,8 +14,8 @@ set smartcase
 set nobackup
 set noswapfile
 
-set showmatch
-
+set wrap
+set linebreak
 colorscheme slate
 
 set splitright
